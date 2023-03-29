@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Fizz_Buzz.Forms
+namespace FizzBuzz.Forms
 {
     public class FizzBuzzForm
     {

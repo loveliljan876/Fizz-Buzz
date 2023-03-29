@@ -4,7 +4,7 @@
     ViewData["Title"] = "Fizz Buzz";
 }
 <div class="text-center">
-    <h1 class="display-4">Welcome @Model.Name</h1>
+    <h1 class="display-4">Welcome</h1>
 </div>
 
 <form method="post">
@@ -14,13 +14,7 @@
         <span asp-validation-for="FizzBuzz.Number" class="text-danger"></span>
         <button type="submit" class="btn btn-primary">Zatwierdź</button>
 
-        @{
-            if (!string.IsNullOrEmpty(Model.FizzBuzz.Response))
-            {
-                <div class="alert alert-success" role="alert">
-                    @Model.FizzBuzz.Response
-                </div>
-            }
-        }
+
+
     </div>
 </form>
